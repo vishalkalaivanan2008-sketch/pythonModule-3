@@ -1,22 +1,36 @@
-# Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
+# Strings-Palindrome Check in Python (Without Built-in Functions)
 
 ## 🎯 Aim
-To write a Python program that accepts a string and removes the character at a specified index.
+To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
 
 ## 🧠 Algorithm
-1. Define a function named `remove` that takes the input string as an argument.
-2. Read the index `n` from the user input.
-3. Initialize an empty string `a` to store the new string.
-4. Iterate over each index of the string using a `for` loop.
-5. Check if the current index `i` is not equal to `n`.
-6. If `i != n`, append the character at index `i` to string `a`.
-7. After the loop, return the modified string `a`.
-8. Print the final result.
+1. Assign the string `"google"` to a variable.
+2. Reverse the string manually using slicing (`[::-1]`).
+3. Compare the original string with the reversed string.
+   - If they are equal, print that the string is a palindrome.
+   - Otherwise, print that it is not a palindrome.
+4. Execute the program.
 
-## 💻 Program
-Add Code Here
+## 🧾 Program
+```
+def palindrome(a):
+    x1=a[::-1]
+    if a==x1:
+       print("The entered string is palindrome")
+    else:
+        print("The entered string is not palindrome")
+    
+    
+        
+        
+string =input()
+palindrome(string)
+
+```
 
 ## Output
+<img width="973" height="154" alt="image" src="https://github.com/user-attachments/assets/1f28e6a8-48c7-4c5e-a16f-febe085085c0" />
+
 
 ## Result
+Thus the program executed successfully.
