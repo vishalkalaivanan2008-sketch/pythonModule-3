@@ -10,8 +10,15 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
-
+```
+tuplex = input()
+print("n" in tuplex)
+print("8" in tuplex)
+```
 ## Output
 
+<img width="939" height="291" alt="image" src="https://github.com/user-attachments/assets/b125fc7f-85b1-4e9b-b0c6-861b501be360" />
+
+
 ## Result
+Thus the program executed successfully.
